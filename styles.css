@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.logo {
+  padding-left: 40px;
+  color: white;
+  font-weight: 900;
+  font-size: 25px;
+  font-family: "Roboto Rounded", sans-serif;
+}
+
+.right {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding-right: 40px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Roboto;
+  font-weight: 600;
+  color: #cecece;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 70px;
+  background-color: #1f2937;
+}
+
+.entrance {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 450px;
+  background-color: #1f2937;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 400px;
+  height: 240px;
+  padding: 0;
+  gap: 8px;
+}
+
+.main-text {
+  display: flex;
+  font-size: 48px;
+  margin: 0;
+  font-family: "Roboto Rounded", sans-serif;
+  font-weight: bold;
+  color: #f9faf8;
+}
+
+.secondary-text {
+  display: flex;
+  font-size: 18px;
+  color: #cecece;
+  font-family: Roboto;
+  margin: 0;
+}
+
+.image {
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+#my-but {
+  margin-top: 8px;
+  border: none;
+  font-family: "Roboto Rounded", sans-serif;
+  font-weight: bolder;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #3882f6;
+  width: 150px;
+  height: 40px;
+  font-size: 18px;
+}
+
+.card {
+  display: flex;
+  height: 370px;
+  border-bottom: 5px solid rgb(190, 9, 9);
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.info-text {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: "Roboto Rounded", sans-serif;
+  color: #1f2937;
+}
