@@ -36,6 +36,7 @@ a {
   flex-direction: row;
   height: 70px;
   background-color: #1f2937;
+  flex-wrap: wrap;
 }
 
 .entrance {
@@ -94,17 +95,52 @@ a {
   font-size: 18px;
 }
 
-.card {
+.containers {
   display: flex;
-  height: 370px;
-  border-bottom: 5px solid rgb(190, 9, 9);
-  justify-content: center;
-  padding-top: 50px;
+  height: 400px;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .info-text {
+  margin-top: 40px;
   font-size: 36px;
   font-weight: bold;
   font-family: "Roboto Rounded", sans-serif;
   color: #1f2937;
+}
+
+.photos-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 900px;
+  height: 100%;
+}
+
+.photo-element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+#info-image {
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+}
+
+.photo-text {
+  font-family: "Roboto Rounded", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  color: #626262;
+}
+
+.finish-container {
+  display: flex;
+  height: 300px;
+  border: 2px solid rgb(190, 9, 9);
 }
