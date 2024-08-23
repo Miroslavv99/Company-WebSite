@@ -232,3 +232,15 @@ a {
   font-weight: 700;
   color: white;
 }
+
+.footer {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: #1f2937;
+  text-align: center;
+  color: #e5e7eb;
+  justify-content: center;
+  flex-direction: column;
+  font-family: Roboto, sans-serifs;
+}
